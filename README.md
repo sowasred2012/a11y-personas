@@ -14,10 +14,29 @@
 
 ## Setup
 
-Setup for several personas involve installing the following extensions: Stylus and Tampermonkey. Stylus allows you to install custom stylesheets, Tampermonkey allows you to install custom JavaScript, and both are applied to every website you engage with.
+### Extensions
 
-- Install Chrome
-  - Chromium on Ubuntu seems to not be packaged with the voices required for the screen reader extension, so go for the [full fat Chrome](https://www.google.com/chrome/) if you don't have it already.
+Each persona uses a different set of Chrome extensions to simulate certain conditions, this is what each of them do:
+
+| Extension            | Description                                                 |
+| -------------------- | ----------------------------------------------------------- |
+| Chrome Sound Effects | Adds distracting sounds to actions performed in the browser |
+| ClaroRead            | Allows highlighted speech to be read aloud                  |
+| Clever Mute          | Disables all website audio                                  |
+| Hands Free for Web   | Allows you to control your browser with your voice          |
+| High Contrast        | Applies a high contrast filter to all websites              |
+| Midnight Lizard      | Applies a dark colour scheme to all websites                |
+| OpenDyslexicFont     | Applies a dyslexia friendly font to all websites            |
+| Screen Reader        | A browser based screen reader                               |
+| Stylus               | Allows custom stylesheets to be applied to all websites     |
+| Tampermonkey         | Allows custom JS scripts to be applied to all websites      |
+
+### Pre-requisites
+
+You just need Chrome. Chromium on Ubuntu seems to not be packaged with the voices required for the screen reader extension, so go for the [full fat Chrome](https://www.google.com/chrome/) if you don't have it already.
+
+### Personas
+
 - For each persona you'll be working with, create a new profile in Chrome.
 - Follow the setup instructions for the persona you'll be working with:
   - [Ashleigh](personas/ashleigh.md)
